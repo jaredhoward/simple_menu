@@ -8,10 +8,9 @@ Gem::Specification.new do |s|
   s.name        = "simple_menu"
   s.version     = SimpleMenu::VERSION
   s.authors     = ["Jared Howard"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleMenu."
-  s.description = "TODO: Description of SimpleMenu."
+  s.email       = ["jared@howardpants.com"]
+  s.summary     = "Simple class for menus."
+  s.description = "Simple class to set up grouped items that can be used in displaying in a menu system."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
